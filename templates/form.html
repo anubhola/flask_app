@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>enter your requirments</title>
+        <body>
+            <form action="/prediction" method="POST">
+                <label for="Battery_power">Battery_power</label>
+                <input name="Battery_power" id="username" type="number"  style="margin-left:100px;"/>
+                <br><br><br>
+                 <label for="int_memory">int_memory</label>
+                <input name="int_memory" id="username" type="number" style="margin-left:117px;"/>
+                <br><br><br>
+                 <label for="ram">ram</label>
+                <input name="ram" id="username" type="number"  style="margin-left:100px;"/>
+                <br><br><br>
+                prediction:{{api_output}}
+                <input type="submit" value="Submit">
+                
+            </form>
+         </body>
+    </head>
+</html>
